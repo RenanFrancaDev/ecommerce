@@ -1,0 +1,48 @@
+@use "../../sass/variables" as *;
+
+.home {
+  &__products {
+    padding: 50px 166px 166px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: center;
+  }
+  &__card {
+    width: 330px;
+    border: solid 1px $border-background-color;
+    border-radius: 8px;
+    img {
+      border-radius: 7px;
+    }
+  }
+  &__card-description {
+    padding: 16px;
+    text-align: center;
+  }
+  p {
+    padding-bottom: 11px;
+    font-size: 20px;
+  }
+
+  button {
+    background-color: $contrast-color;
+    width: 10rem;
+    height: 1.7rem;
+    border: none;
+    border-radius: 5px;
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .home {
+    &__products {
+      padding: 10%;
+    }
+  }
+}

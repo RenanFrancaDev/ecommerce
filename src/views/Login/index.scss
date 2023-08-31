@@ -1,0 +1,72 @@
+@use "../../sass/variables" as *;
+
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__form {
+    margin-top: 7.5rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 35px;
+    padding-bottom: 2%;
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 0 1rem 0 1rem;
+  }
+  label {
+    text-align: left;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  &__input-wrapper {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin-top: 3rem;
+    max-width: 80%;
+  }
+
+  &__input-name {
+    margin-bottom: 19px;
+    font-family: "Inter", sans-serif;
+  }
+
+  input {
+    height: 52px;
+    padding: 18px 13px;
+    border: 2px solid $border-input-color;
+    border-radius: 10px;
+  }
+
+  button {
+    width: 32rem;
+    border: none;
+    background-color: $contrast-color;
+    border-radius: 6px;
+    padding: 13px;
+    margin-top: 3rem;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    max-width: 80%;
+  }
+
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+}

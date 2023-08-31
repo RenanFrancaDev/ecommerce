@@ -1,0 +1,59 @@
+@use "../../sass/variables" as *;
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 3rem;
+  &__input-container {
+    width: 60%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+  }
+  input {
+    border: none;
+    width: 94%;
+    height: 100%;
+    font-size: 18px;
+    outline: none;
+    border-radius: 8px;
+  }
+  .search__search-logo {
+    padding: 0 1rem 0 1rem;
+  }
+
+  img {
+    cursor: pointer;
+  }
+
+  &__icons {
+    img {
+      padding-left: 8px;
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .search {
+    flex-direction: column-reverse;
+    gap: 0;
+    padding: 0;
+    align-items: flex-start;
+    &__input-container {
+      width: 85%;
+      margin-left: 2rem;
+    }
+    input {
+      font-size: 16px;
+      padding-top: 0;
+    }
+    &__icons {
+      padding-top: 1rem;
+      margin-left: 2rem;
+    }
+  }
+}
