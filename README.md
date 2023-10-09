@@ -1,8 +1,21 @@
-# React + Vite
+# Ecommerce Web Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de criação de página de E-commerce.
 
-Currently, two official plugins are available:
+# LINK
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://ecommerce-fawn-iota-72.vercel.app/
+
+## Status
+
+Apenas a base do projeto foi criada, com componentes e rotas.
+
+## Techs
+
+- [React](https://reactjs.org/)
+- [Sass](https://sass-lang.com/)
+
+
+## Contato
+
+Envie um e-mail para renanfranca.dev@gmail.com ou visite [GitHub](https://github.com/RenanFrancaDev) e [Linkedin](https://www.linkedin.com/in/renan-franca/)
